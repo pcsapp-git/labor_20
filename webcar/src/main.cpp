@@ -263,7 +263,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+ wsCarInput.cleanupClients();
 }
 
 // put function definitions here:
